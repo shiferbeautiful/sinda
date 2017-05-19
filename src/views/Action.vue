@@ -2,11 +2,12 @@
   <div>
     <!--<a-head></a-head>-->
     <router-view></router-view>
-    <!--<a-foot></a-foot>-->
+    <afoot></afoot>
   </div>
 </template>
 
 <script>
+import afoot from '../components/afoot'
 export default {
   name: 'hello',
   data() {
