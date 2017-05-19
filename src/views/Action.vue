@@ -2,6 +2,7 @@
   <div>
     <a-head></a-head>
     <router-view></router-view>
+    <a-heads></a-heads>
     <p>这是一段文本</p>
     <afoot></afoot>
   </div>
@@ -10,6 +11,8 @@
 <script>
 import afoot from '../components/afoot'
 import aHead from '../components/ahead'
+import aHeads from '../components/headers'
+
 export default {
   name: 'hello',
   data() {
@@ -19,7 +22,11 @@ export default {
   },
   components:{
     aHead,
+
+    aHeads,
+
     afoot
+
   }
 }
 
