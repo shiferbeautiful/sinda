@@ -2,6 +2,7 @@
   <div>
     <a-head></a-head>
     <router-view></router-view>
+    <p>这是一段文本</p>
     <afoot></afoot>
   </div>
 </template>
@@ -17,7 +18,8 @@ export default {
     }
   },
   components:{
-    aHead
+    aHead,
+    afoot
   }
 }
 
