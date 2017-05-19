@@ -3,6 +3,7 @@
     <a-head></a-head>
     <router-view></router-view>
     <a-heads></a-heads>
+    <p>这是一段文本</p>
     <afoot></afoot>
   </div>
 </template>
