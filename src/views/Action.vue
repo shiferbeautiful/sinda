@@ -21,7 +21,11 @@ export default {
   },
   components:{
     aHead,
-    aHeads
+
+    aHeads,
+
+    afoot
+
   }
 }
 
